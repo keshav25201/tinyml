@@ -2,3 +2,4 @@ flask===2.0.3
 Tensorflow-cpu
 opencv-python
 numpy===1.21.4
+gunicorn
