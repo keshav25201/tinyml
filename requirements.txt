@@ -1,6 +1,6 @@
 Flask
 Pillow
 tensorflow-cpu
-opencv-python 
+opencv-python-headles 
 virtualenv
 gunicorn
