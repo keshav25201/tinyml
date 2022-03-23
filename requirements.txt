@@ -3,3 +3,4 @@ Pillow
 tensorflow-cpu
 opencv-python 
 virtualenv
+gunicorn
