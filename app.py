@@ -59,5 +59,5 @@ def predict():
     im.save(data, "JPEG")
     encoded_img_data = base64.b64encode(data.getvalue())
     return render_template('index.html',prediction=y_hat,img_data=encoded_img_data.decode('utf-8'))
-
-app.run()
+if __name__== '__main__':
+    app.run()
