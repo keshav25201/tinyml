@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import tensorflow as tf
 from keras.preprocessing.image import load_img,img_to_array
-import cv2 as cv
+# import cv2 as cv
 import pathlib
 import numpy as np
 import base64
@@ -40,7 +40,7 @@ def predict():
     # Image = Image/255.0
     Image = 255 - Image
     print(Image)
-    cv.imwrite("./images/xyz.png",Image)
+    # cv.imwrite("./images/xyz.png",Image)
     # Load TFLite model and allocate tensors.
     interpreter = tf.lite.Interpreter(model_path="fmnist.tflite")
     # Get input and output tensors.
